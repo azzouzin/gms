@@ -1,9 +1,18 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:jms/Controllers/Bindings/auth_bindings.dart';
 import 'package:jms/Views/LoginView/login_page.dart';
+import 'package:jms/Views/LoginView/splash_view.dart';
 
-void main() {
+initOperations() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+}
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -21,8 +30,9 @@ class MyApp extends StatelessWidget {
       ),
       // home: LoginPage(),
 
-      initialRoute: '/login',
+      initialRoute: '/',
       getPages: [
+        GetPage(name: '/', page:()=> SplashPage(),binding:AuthBindings());
         GetPage(
           name: '/login',
           page: () => LoginPage(),

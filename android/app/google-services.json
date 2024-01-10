@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "400593036899",
+    "project_id": "gmsapp-7d8ae",
+    "storage_bucket": "gmsapp-7d8ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400593036899:android:43acb38e1e11ca994f7a56",
+        "android_client_info": {
+          "package_name": "com.example.jms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400593036899-2prdfnh23saaikl2a72hmovki82r33ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDor19if9mF0MQV_-7rB2etlFpZr0kzOds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400593036899-2prdfnh23saaikl2a72hmovki82r33ud.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "400593036899-io0m3k6l80qemnd6ojj6t1ink3c6p7gk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jms"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
